@@ -1,0 +1,13 @@
+Person A: William Guo
+Person B: Patrick Soung
+
+Write your answers to written problems here.
+
+1.1) The method "simulate" inside the class "AntColony" actually simulates an attack on the ant colony. In other words, it is the method that actually runs the game: AntColony.simulate()
+
+1.2) A list "exits" is created and it contains all of the possible entrances for a given colony. The bees then choose a random entrance to move to, thus "exiting" the hive when "strategy" is called. Basically, when the assault plan is set in action, the bees leave their hive.
+
+*1.3) The way by which the places in the colony is laid out is shown by the layout methods provided. The queen is designated to be positioned at the exit, where register_place sets aside a place (makes the places). The length determines the number of places in a particular setting(tunnel) and the the value of tunnels determines the number of tunnels that are created. 
+You can just change the parameters "tunnels" or "length" to add new places to the colony.
+
+1.4) The Insects armor attribute determines whether the insect remains on the board. In a sense, it is the current health of a particular insect. When "armor" reaches 0, the insect is removed from the board.
